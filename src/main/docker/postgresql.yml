@@ -5,7 +5,7 @@ services:
     # volumes:
     #     - ~/volumes/jhipster/CityDeals/postgresql/:/var/lib/postgresql/data/
     environment:
-      - POSTGRES_USER=CityDeals
-      - POSTGRES_PASSWORD=
+      - POSTGRES_USER=citydeals
+      - POSTGRES_PASSWORD=citydeals
     ports:
       - 5432:5432
